@@ -1,0 +1,14 @@
+server:
+  port: 8878
+
+logging.level.com.epam: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: elevel
